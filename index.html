@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Giulia & Steve</title>
+        <link rel="stylesheet" href="styles.css">
+        <!--<script src="./node_modules/@rive-app/canvas/rive.js"></script>-->
+
+        <script>
+            // Your API key goes here
+            const apiKey = 'AIzaSyD1-22Pb9JUrzmAXppTNaMPTsm6l3ffOFo';
+            </script>
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap"></script>
+    </head>
+
+    <body>
+        <div class="body-container">
+
+            <!--<div class="runner"></div>-->
+
+            <div class="content-container">
+                <div class= "section section-primary centered-content full-screen">
+                    <div class="bg bg-daffodil"></div>
+                    <div class="bg bg-rose"></div>
+                    <h1 class="primary">Giulia & Steve</h1>
+                    <h3 class="primary">Saturday, 12th September 2026</h3>
+                </div>
+
+                <!--<div class="section-separator"></div>-->
+
+                <div class="section section-secondary centered-content full-screen">
+                    <div class="bg bg-leek"></div>
+                    <div class="bg bg-wine"></div>
+                    <h2 class="secondary">Giulia & Steve</h2>
+                    <p class="secondary">Join us for our wedding celebration!</p>
+                    <p class="secondary">We are so excited to celebrate with you!</p>
+                    <p class="secondary">We can't wait to see you there!</p>
+                    <p class="secondary">Love, Giulia & Steve</p>
+                </div>
+
+                <div class= "section section-quaternary centered-content full-screen">
+                    <div class="bg bg-daffodil"></div>
+                    <div class="bg bg-rose"></div>
+                    <h2 class="quaternary">Location</h2>
+                    <div class="location-container">
+                        <div class="location-text-container">
+                            <p class="text-map quaternary">Agriturismo Colli Euganei - Monte Altore,</p>
+                            <p class="text-map quaternary">Via Bagnara Alta 836,</p>
+                            <p class="text-map quaternary">35030 Zovon PD, Italy</p>
+                        </div>
+                        <div class="map-container">
+                            <iframe class="map"
+                                width="100%" height="100%"
+                                frameborder="0" style="border:0"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD1-22Pb9JUrzmAXppTNaMPTsm6l3ffOFo&q=Agriturismo+Colli+Euganei+-+Monte+Altore&maptype=satellite"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="runner"></div>-->
+
+        </div>
+        
+    </body>
+
+</html>
