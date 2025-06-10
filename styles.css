@@ -70,6 +70,10 @@ h2.secondary {
     color: var(--tertiary-color);
 }
 
+h2.tertiary {
+    color: var(--secondary-color);
+}
+
 h2.quaternary {
     color: var(--secondary-color);
 }
@@ -268,5 +272,6 @@ h3.primary{
 }
 
 .form {
+    height: 90%;
     z-index: 1;
 }
