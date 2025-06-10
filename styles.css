@@ -16,7 +16,6 @@ body {
     min-height: 100vh;
     padding-left: 0%;
     padding-right: 0%;
-
 }
 
 @font-face {
@@ -58,11 +57,19 @@ p {
     font-family: 'Lora';
 }
 
+p.left-aligned{
+    text-align: left;
+}
+
 h1.primary{
     color: var(--secondary-color);
 }
 
 h1.secondary{
+    color: var(--tertiary-color);
+}
+
+h2.primary{
     color: var(--tertiary-color);
 }
 
@@ -78,8 +85,16 @@ h2.quaternary {
     color: var(--secondary-color);
 }
 
+p.primary {
+    color: var(--tertiary-color);
+}
+
 p.secondary {
     color: var(--tertiary-color);
+}
+
+p.tertiary {
+    color: var(--secondary-color);
 }
 
 p.quaternary {
@@ -111,6 +126,7 @@ h3.primary{
 }
 
 .section {
+    scroll-snap-align: start;
     flex: 1;
 }
 
@@ -168,6 +184,7 @@ h3.primary{
 
 .full-screen {
     width: 100%;
+    height: auto;
     min-height: 100vh;
 }
 
@@ -229,13 +246,23 @@ h3.primary{
     background-position: center left 6vw; 
 }
 
+.introduction-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    gap: 2vh;
+}
+
 .location-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 80%;
+    height: 90%;
 }
 
 .text-map{
@@ -257,7 +284,8 @@ h3.primary{
 
 .map-container{
     width: 50%;
-    height: 100%;
+    height: 90%;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,7 +299,27 @@ h3.primary{
     border: solid 1vw #aa82aa;
 }
 
+.location-and-accomodation-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+    width: 50%;
+    gap: 2vh;
+}
+
+.gift-text-container{
+   height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
 .form {
     height: 90%;
     z-index: 1;
+    padding-bottom: -10%;
 }
