@@ -48,7 +48,7 @@ h1 {
     z-index: 1;
 
     @media only screen and (max-width: 768px) {
-        font-size: 10vh;
+        font-size: 15vw;
     }
 }
 
@@ -59,7 +59,7 @@ h2 {
     font-family: 'Lora';
 
     @media only screen and (max-width: 768px) {
-        font-size: 2vh;
+        font-size: 4vw;
     }
 }
 
@@ -70,7 +70,7 @@ h3 {
     font-family: 'Lora';
 
     @media only screen and (max-width: 768px) {
-        font-size: 1.75vh;
+        font-size: 3vw;
     }
 }
 
@@ -81,7 +81,7 @@ p {
     font-family: 'Lora';
 
     @media only screen and (max-width: 768px) {
-        font-size: 1.5vh;
+        font-size: 3vw;
     }
 }
 
