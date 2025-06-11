@@ -54,7 +54,7 @@ h1 {
     z-index: 1;
 
     @media only screen and (max-width: 768px) {
-        font-size: 15vw;
+        font-size: 20vw;
     }
 }
 
@@ -65,7 +65,7 @@ h2 {
     font-family: 'Lora';
 
     @media only screen and (max-width: 768px) {
-        font-size: 4vw;
+        font-size: 6vw;
     }
 }
 
@@ -76,7 +76,7 @@ h3 {
     font-family: 'Lora';
 
     @media only screen and (max-width: 768px) {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 }
 
@@ -87,7 +87,7 @@ p {
     font-family: 'Lora';
 
     @media only screen and (max-width: 768px) {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 }
 
@@ -221,6 +221,16 @@ h3.primary{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.mobile-top-content {
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+        justify-content:flex-start;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+        gap: 5vw;
+     }
 }
 
 .full-screen {
@@ -400,6 +410,10 @@ h3.primary{
     height: 90%;
     width: 50%;
     gap: 2vh;
+
+    @media only screen and (max-width: 768px) {
+       width: 75%;
+    }
 }
 
 .gift-text-container{
@@ -410,6 +424,10 @@ h3.primary{
     justify-content: center;
     align-items: center;
     gap: 2vh;
+
+    @media only screen and (max-width: 768px) {
+        width: 75%;
+     }
 }
 
 .form {
