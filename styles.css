@@ -87,6 +87,12 @@ p {
     }
 }
 
+.mobile-small-text{
+    @media only screen and (max-width: 768px) {
+        font-size: 2vw;
+    }
+}
+
 p.left-aligned{
     text-align: left;
 }
