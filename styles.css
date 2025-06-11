@@ -33,6 +33,7 @@ body {
     overflow-x: hidden;
     max-height: 100vh;
     overflow-y: scroll;
+    overscroll-behavior: none;
 }
 
 @font-face {
@@ -231,7 +232,7 @@ h3.primary{
 .mobile-double-full-screen {
     @media only screen and (max-width: 768px) {
         width: 100%;
-        height: auto;
+        height: 200vh;
         min-height: 200vh;
     }
 }
