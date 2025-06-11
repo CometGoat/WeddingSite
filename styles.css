@@ -250,14 +250,14 @@ h3.primary{
 }
 
 .bg {
-    position:relative;
+    position:absolute;
     background-size: 20%;
     background-repeat: no-repeat;   
     background-attachment: fixed;
     filter: sepia(100%) saturate(800%) hue-rotate(260deg) brightness(90%) opacity(40%);
     z-index: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     mix-blend-mode: multiply;
 
     @media only screen and (max-width: 768px) {
@@ -267,7 +267,6 @@ h3.primary{
 }
 
 .bg-daffodil{
-    position: absolute;
     background-image: url('Daffodil_BG.png');
     background-position: center right 2vw;
     z-index: 0;
@@ -280,7 +279,6 @@ h3.primary{
 }
 
 .bg-leek {
-    position: absolute;
     background-image: url('Leek_BG.png');
     background-size: 19%;
     background-position: center right 2vw;
@@ -294,7 +292,6 @@ h3.primary{
 }
 
 .bg-rose{
-    position: absolute;
     background-image: url('Rose_BG.png');
     background-size: 16%;
     background-position: center left 2vw;
@@ -306,7 +303,6 @@ h3.primary{
 }
 
 .bg-wine{
-    position: absolute;
     background-image: url('Wine_BG.png');
     background-size: 8%;
     background-position: center left 6vw;
