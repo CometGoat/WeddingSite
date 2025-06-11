@@ -413,7 +413,7 @@ h3.primary{
     gap: 2vh;
 
     @media only screen and (max-width: 768px) {
-       width: 75%;
+       width: 80%;
     }
 }
 
@@ -427,7 +427,7 @@ h3.primary{
     gap: 2vh;
 
     @media only screen and (max-width: 768px) {
-        width: 75%;
+        width: 80%;
      }
 }
 
