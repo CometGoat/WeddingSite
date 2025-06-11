@@ -255,6 +255,11 @@ h3.primary{
     width: 100%;
     height: 100%;
     mix-blend-mode: multiply;
+
+    @media only screen and (max-width: 768px) {
+        left: 0;
+        right: 0;
+    }
 }
 
 .bg-daffodil{
@@ -264,8 +269,8 @@ h3.primary{
     z-index: 0;
 
     @media only screen and (max-width: 768px) {
-        top: 0%;
-        left: 0%;
+        left: 0;
+        right: 0;
         background-position: center left 72vw;
     }
 }
@@ -278,8 +283,8 @@ h3.primary{
     z-index: 0;
 
     @media only screen and (max-width: 768px) {
-        top: 0%;
-        left: 0%;
+        left: 0;
+        right: 0;
         background-position: center left 72vw;
     }
 }
@@ -291,8 +296,8 @@ h3.primary{
     background-position: center left 2vw;
 
     @media only screen and (max-width: 768px) {
-        top: 0%;
-        left: 0%;
+        left: 0;
+        right: 0;
     }
 }
 
@@ -303,8 +308,8 @@ h3.primary{
     background-position: center left 6vw;
 
     @media only screen and (max-width: 768px) {
-        top: 0%;
-        left: 0%;
+        left: 0;
+        right: 0;
     }
 }
 
