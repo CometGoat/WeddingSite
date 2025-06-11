@@ -415,5 +415,8 @@ h3.primary{
 .form {
     height: 90vh;
     z-index: 1;
-    padding-bottom: -10%;
+
+    @media only screen and (max-width: 768px) {
+        height: 180vh;
+    }
 }
