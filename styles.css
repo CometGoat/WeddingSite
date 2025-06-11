@@ -228,6 +228,14 @@ h3.primary{
     min-height: 100vh;
 }
 
+.mobile-double-full-screen {
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+        height: auto;
+        min-height: 200vh;
+    }
+}
+
 .section-separator {
     position: relative;
     bottom: 0;
@@ -253,7 +261,7 @@ h3.primary{
     position:absolute;
     background-size: 20%;
     background-repeat: no-repeat;   
-    background-attachment: local;
+    background-attachment: fixed;
     filter: sepia(100%) saturate(800%) hue-rotate(260deg) brightness(90%) opacity(40%);
     z-index: 0;
     width: 100vw;
@@ -263,6 +271,7 @@ h3.primary{
     @media only screen and (max-width: 768px) {
         left: 0;
         right: 0;
+        background-attachment: local;
     }
 }
 
@@ -274,7 +283,7 @@ h3.primary{
     @media only screen and (max-width: 768px) {
         left: 0;
         right: 0;
-        background-position: center left 72vw;
+        background-position: center left 77vw;
     }
 }
 
@@ -287,7 +296,7 @@ h3.primary{
     @media only screen and (max-width: 768px) {
         left: 0;
         right: 0;
-        background-position: center left 72vw;
+        background-position: center left 77vw;
     }
 }
 
