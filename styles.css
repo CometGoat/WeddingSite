@@ -278,6 +278,7 @@ h3.primary{
     width: 100vw;
     height: 100vh;
     mix-blend-mode: multiply;
+    pointer-events: none;
 
     @media only screen and (max-width: 768px) {
         left: 0;
@@ -407,7 +408,7 @@ h3.primary{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 90%;
+    height: 90vh;
     width: 50%;
     gap: 2vh;
 
@@ -417,7 +418,7 @@ h3.primary{
 }
 
 .gift-text-container{
-   height: 90%;
+   height: 90vh;
     width: 50%;
     display: flex;
     flex-direction: column;
