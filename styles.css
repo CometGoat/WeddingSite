@@ -232,8 +232,8 @@ h3.primary{
 .mobile-double-full-screen {
     @media only screen and (max-width: 768px) {
         width: 100%;
-        height: 150vh;
-        min-height: 150vh;
+        height: 155vh;
+        min-height: 155vh;
     }
 }
 
@@ -417,7 +417,7 @@ h3.primary{
     z-index: 1;
 
     @media only screen and (max-width: 768px) {
-        height: 135vh;
-        min-height: 135vh;
+        height: 140vh;
+        min-height: 140vh;
     }
 }
